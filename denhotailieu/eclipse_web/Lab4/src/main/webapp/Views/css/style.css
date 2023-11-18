@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+}
+
+.menu {
+    margin-top: -1.5%;
+    width: 100%;
+    height: 10%;
+    background-color: orangered;
+}
+
+.menu ul {
+    margin-left: -4%;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.item {
+    width: 75%;
+    height: auto;
+    float: left;
+}
+
+.item .sp {
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.item .sp .name {
+    border: 1px solid green;
+    display: block;
+    margin-top: 9%;
+}
+
+.item .sp .anh {
+    margin-left: 10%;
+    margin-top: 10%;
+    border: 1px solid green;
+    display: block;
+    width: 80%;
+    height: 62%;
+}
+
+.login {
+    border: 1px solid black;
+    width: 90%;
+    height: 100px
+}
+
+.btnlogin {
+    float: right;
+}
+
+.navbar {
+    width: 25%;
+    height: auto;
+    float: right;
+}
+
+table {
+    border: 1px solid red;
+    width: 90.7%;
+}
+
+tr td {
+    border: 1px solid red;
+    text-align: center;
+}
+
+tr td li {
+    list-style-type: none;
+}
